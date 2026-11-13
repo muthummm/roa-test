@@ -1,0 +1,16 @@
+# Python / virtual environment
+venv1/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# pytest / Playwright output
+.pytest_cache/
+reports/
+test-results/
+*.png
+
+# Editor
+.vscode/
+.idea/
