@@ -25,7 +25,6 @@ from pages.transfer_license_page import TransferLicensePage
 def test_01_onboarding(page):
     # ---------- Part 1: agent onboarding ----------
     user = SignUpPage(page).create_new_user()
-
     RoaApplicationPage(page).complete(user)
     TaxInformationPage(page).complete(user)
     SignIcaPage(page).complete(user)
