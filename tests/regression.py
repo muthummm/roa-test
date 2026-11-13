@@ -34,4 +34,7 @@ def test_01_onboarding(page):
     TransferLicensePage(page).complete()
     # ---------- Part 2: admin approves the same agent ----------
     AdminLoginPage(page).login()
+
+
+    
     AdminAgentPage(page).complete(user)
